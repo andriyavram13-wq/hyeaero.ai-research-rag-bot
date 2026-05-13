@@ -122,7 +122,6 @@ class Config:
             raise ValueError(f"Configuration errors: {', '.join(errors)}")
 
 
-# Global config instance (lazy-loaded)
 _config: Optional[Config] = None
 
 
